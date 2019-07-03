@@ -1,0 +1,25 @@
+ /* 底部部分 */
+ #change_botton{
+     z-index: 100;
+     width: 100%;
+    background-color: white;
+    border-top: 0.01rem solid #ddd;
+    display: flex;
+    justify-content:space-around;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+#change_botton div{
+    float: left;
+    /* border: 1px solid rebeccapurple; */
+    text-align: center;
+}
+#change_botton div img{
+    margin-top: 0.05rem;
+    width: 0.2rem;
+}
+#change_botton div p{
+    color: gray;
+    font-size: 0.1rem;
+}
